@@ -6,7 +6,6 @@ import (
 	"io"
 	"net"
 
-	"github.com/sagernet/sing-vmess"
 	"github.com/sagernet/sing/common/auth"
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"
@@ -14,6 +13,7 @@ import (
 	"github.com/sagernet/sing/common/logger"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
+	vmess "github.com/wyx2685/sing-vmess"
 
 	"github.com/gofrs/uuid/v5"
 )
